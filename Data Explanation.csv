@@ -1,0 +1,6 @@
+Dataset,CSV File Name,What Does It Include?,Timeframe,Why Is It Useful?
+Current Satellite Positions,latest_orbits.csv,Current location and orbit details of satellites orbiting Earth.,Last 30 days (most recent positions),Understand where satellites are right now and monitor their current activities.
+ISS Orbit History,iss_recent_history.csv,Past orbit paths and position changes of the International Space Station (ISS).,Last 30 days,"See how the ISS moves and changes its orbit, useful for spotting unusual movements or predicting future paths."
+Recently Launched Satellites,satellite_catalog_recent.csv,"Information about satellites launched into space recently, like their purpose, launch date, and country.",Last 30 days,"Track recent satellite launches and understand what's being sent into space, by whom, and why."
+Potential Satellite Collisions,recent_conjunctions.csv,Data about recent close calls between satellites or space debris.,Last 30 days,"Evaluate how often satellites get dangerously close, helping to prevent collisions and maintain safety in space."
+Satellites Returning to Earth,predicted_decay.csv,Satellites predicted to fall back and burn up in Earth's atmosphere soon.,~60 days (upcoming events),"Know which satellites will soon re-enter Earth, useful for safety measures and tracking debris."
