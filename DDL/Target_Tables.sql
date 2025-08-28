@@ -1,5 +1,5 @@
-IF OBJECT_ID('DWH_TGT.latest_orbits','U') IS NOT NULL
-    DROP TABLE DWH_TGT.latest_orbits;
+-- IF OBJECT_ID('DWH_TGT.latest_orbits','U') IS NOT NULL
+--     DROP TABLE DWH_TGT.latest_orbits;
 
 CREATE TABLE DWH_TGT.latest_orbits (
     CCSDS_OMM_VERS      VARCHAR(3)      NULL,
@@ -45,8 +45,8 @@ CREATE TABLE DWH_TGT.latest_orbits (
     CONSTRAINT PK_latest_orbits PRIMARY KEY (NORAD_CAT_ID)
 );
 
-IF OBJECT_ID('DWH_TGT.satellite_catalog_recent','U') IS NOT NULL
-    DROP TABLE DWH_TGT.satellite_catalog_recent;
+-- IF OBJECT_ID('DWH_TGT.satellite_catalog_recent','U') IS NOT NULL
+--     DROP TABLE DWH_TGT.satellite_catalog_recent;
 
 CREATE TABLE DWH_TGT.satellite_catalog_recent (
     INTLDES        CHAR(12)        NULL,
@@ -77,8 +77,8 @@ CREATE TABLE DWH_TGT.satellite_catalog_recent (
 );
 
 
-IF OBJECT_ID('DWH_TGT.recent_conjunctions','U') IS NOT NULL
-    DROP TABLE DWH_TGT.recent_conjunctions;
+-- IF OBJECT_ID('DWH_TGT.recent_conjunctions','U') IS NOT NULL
+--     DROP TABLE DWH_TGT.recent_conjunctions;
 
 CREATE TABLE DWH_TGT.recent_conjunctions (
     CDM_ID             INT            NOT NULL,
@@ -101,8 +101,8 @@ CREATE TABLE DWH_TGT.recent_conjunctions (
 );
 
 
-IF OBJECT_ID('DWH_TGT.predicted_decay','U') IS NOT NULL
-    DROP TABLE DWH_TGT.predicted_decay;
+-- IF OBJECT_ID('DWH_TGT.predicted_decay','U') IS NOT NULL
+--     DROP TABLE DWH_TGT.predicted_decay;
 
 CREATE TABLE DWH_TGT.predicted_decay (
     NORAD_CAT_ID   INT            NOT NULL,
