@@ -1,6 +1,6 @@
-# Datanauts Femme  
+# Real-Time Data Monitoring & Anomaly Detection System  
 **Satellite Decay Prediction and Orbital Debris Analytics**  
-WiD Datathon 2025
+Datanauts Femme - WiD Datathon 2025
 
 ## Project Summary
 This project implements an end-to-end **data engineering and machine learning pipeline** to ingest, process, store, analyze, and model satellite and orbital debris data. The system is built using **Python, Azure SQL, Azure Functions, REST APIs, Pandas, Scikit-learn, and Tableau**.
